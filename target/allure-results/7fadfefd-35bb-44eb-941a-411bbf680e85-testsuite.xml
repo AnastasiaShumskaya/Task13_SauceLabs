@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1483019864331" stop="1483019870180" version="1.4.6">
+    <name>Default Suite</name>
+    <title>Default Suite : selTask5[]</title>
+    <test-cases>
+        <test-case start="1483019864393" stop="0" status="passed">
+            <name>firstTest[chrome,40.0,Linux]</name>
+            <labels>
+                <label name="host" value="SHUMSKAYAA7"/>
+                <label name="thread" value="6256@SHUMSKAYAA7.PoolService-2"/>
+            </labels>
+        </test-case>
+        <test-case start="1483019864393" stop="0" status="passed">
+            <name>firstTest[firefox,39.0,Windows 8.1]</name>
+            <labels>
+                <label name="host" value="SHUMSKAYAA7"/>
+                <label name="thread" value="6256@SHUMSKAYAA7.PoolService-1"/>
+            </labels>
+        </test-case>
+        <test-case start="1483019864393" stop="0" status="passed">
+            <name>firstTest[edge,14.14393,Windows 10]</name>
+            <labels>
+                <label name="host" value="SHUMSKAYAA7"/>
+                <label name="thread" value="6256@SHUMSKAYAA7.PoolService-0"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
